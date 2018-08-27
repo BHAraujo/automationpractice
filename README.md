@@ -37,7 +37,7 @@ Executar o projeto
 
 Projeto
   - create_account.feature
-        Realizar o cadastro no site, para possibilitar o usuário realizar a compra do produto
+          Realizar o cadastro no site, para possibilitar o usuário realizar a compra do produto
         Obs: Deixando os testes somente em um cenário, quando fosse realizar a compra caso o site
             não permita efetuar o cadastro de usuário, iria criar um dependência de cenário, para
             isso foi criado um arquivo chamado save_email.txt que contém um e-mail já cadastro
@@ -45,7 +45,7 @@ Projeto
             "Realizar comprar". Caso o arquivo "save_email.txt" não contenha nenhum e-mail,
             será necessário executar o cenário "Cadastro de usuário".
 
-  -purchase.feature
+  - purchase.feature
         Realizar a compra de um vestido da subcategoria Summer Dresses
 
 ###################################################################################################
