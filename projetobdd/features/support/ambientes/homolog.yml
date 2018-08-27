@@ -1,4 +1,4 @@
 ---
-default: -p pretty -c
+default: -c
 pretty: --format pretty
 url: http://automationpractice.com/

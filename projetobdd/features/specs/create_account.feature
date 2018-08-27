@@ -7,7 +7,7 @@ Feature: Realizar cadastro na loja virtual
             Given que esteja na tela de cadastro
 
       @logout
-      Scenario: Cadastro de usuario
+      Scenario: Cadastro de usuário
             When preencho o campo Email address "test_automation@gmail.com"
             And clico no botão Create an account
             And o título da pagina deve ser "Login - My Store"

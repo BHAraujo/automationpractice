@@ -11,7 +11,7 @@ Then("a página deve conter o seguinte mensagem") do |text|
 end
 
 And("efetuo o login com as seguintes credenciais") do |table|
-  File.open("email.txt", "r") do |f|
+  File.open("save_email.txt", "r") do |f|
     f.each do |email|
       authentication.do_login(email, table.hashes[0]["password"])
   end

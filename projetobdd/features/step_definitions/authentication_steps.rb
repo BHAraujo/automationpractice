@@ -4,7 +4,7 @@ When("preencho o campo Email address {string}") do |email|
 
   authentication.send_email(email_random)
 
-  File.open("email.txt", "w")  do |save_email|
+  File.open("save_email.txt", "w")  do |save_email|
       save_email << email_random
   end
 end
