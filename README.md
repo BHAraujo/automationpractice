@@ -1,5 +1,5 @@
 
-<b>Automation Practice</b>
+<b><h2 align="center">Automation Practice</h2></b>
  - Automação E-commerce do site www.automationpractice.com utilizando Ruby, Capybara, Selenium, Site Prism, Rspec e Cucumber.
 
 Configuração de ambiente
