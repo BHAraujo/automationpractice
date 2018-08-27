@@ -1,7 +1,7 @@
 #language: en
 
 Feature: Realizar cadastro na loja virtual
-      Eu como usuário que cadastrar - me na loja virtual automation practise
+      Eu como usuário quero cadastrar - me na loja virtual automation practise
 
       Background: Preparação de ambiente
             Given que esteja na tela de cadastro

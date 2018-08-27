@@ -1,12 +1,12 @@
 #language: en
 
   Feature: Efetuar comprar no site automation practise
-        Eu como usuário que efetuar a compra de um vestido no site Automation Practise
+        Eu como usuário que realizar a compra de um vestido no site Automation Practise
 
         Background: Preparação de ambiente
               Given que esteja na tela inicial do site Automation Practise
 
-    @teste
+
         Scenario: Realizar comprar
           Given que clico no categoria Dresses
           When clico na subcategoria Summer Dresses

@@ -8,5 +8,4 @@ After do |scenario|
     else
       tirar_foto(scenario.name.gsub(' ', '_'), "Passou")
     end
-
 end
