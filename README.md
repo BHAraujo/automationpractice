@@ -1,6 +1,8 @@
 
 <b><h2 align="center">Automation Practice</h2></b><br>
- - Automação E-commerce do site www.automationpractice.com utilizando Ruby, Capybara, Selenium, Site Prism, Rspec e Cucumber.
+
+Descrição 
+- Automação E-commerce do site www.automationpractice.com utilizando Ruby, Capybara, Selenium, Site Prism, Rspec e Cucumber.
 
 Configuração de ambiente
   - Instalar o Ruby 2.4.4, link: https://rubyinstaller.org/downloads/ ;
