@@ -12,8 +12,8 @@ Configuração de ambiente
 Executar o projeto
   - Arquivo cucumber.yml
       default: -p bdd -p html_report -c
-          -p bdd --> Exibir os steps sendo executados em tempo real;
-          -p html_report --> Gerar o relatório do(s) cenário(s) executado(s);      
+         - -p bdd --> Exibir os steps sendo executados em tempo real;
+         - -p html_report --> Gerar o relatório do(s) cenário(s) executado(s);      
           -c --> Exibir a cor dos steps em tempo real, VERDE o step passou corretamente e VERMELHO
           ocorreu alguma falha no step.
 
