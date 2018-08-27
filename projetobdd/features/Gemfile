@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "capybara", "3.6.0"
+gem "cucumber", "3.1.2"
+gem "selenium-webdriver", "3.14.0"
+gem "rspec", "3.8.0"
+gem "site_prism", "1.3"
