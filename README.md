@@ -27,16 +27,16 @@ Executar o projeto
       html_report: --format progress --format html --out=reports/html/features_report.html
                "--out=reports/html/features_report.html" caminho onde será salvo o relatório.
 
-  -Arquivo homolog.yml           
+  - Arquivo homolog.yml           
         url: http://automationpractice.com/
             Url que será utilizada para executar os teste(s) no ambiente de homologação
 
-  -Arquivo prod.yml           
+  - Arquivo prod.yml           
         url: http://automationpractice.com/
             Url que será utilizada para executar o teste no ambiente de homologação
 
 Projeto
-  -create_account.feature
+  - create_account.feature
         Realizar o cadastro no site, para possibilitar o usuário realizar a compra do produto
         Obs: Deixando os testes somente em um cenário, quando fosse realizar a compra caso o site
             não permita efetuar o cadastro de usuário, iria criar um dependência de cenário, para
