@@ -37,8 +37,9 @@ Executar o projeto
 
 Projeto
   - create_account.feature
-       - Realizar o cadastro no site, para possibilitar o usuário realizar a compra do produto
-        Obs: Deixando os testes somente em um cenário, quando fosse realizar a compra caso o site
+       - Realizar o cadastro no site, simula a compra de um produto.
+        
+        - Obs: Deixando os testes somente em um cenário, quando fosse realizar a compra caso o site
             não permita efetuar o cadastro de usuário, iria criar um dependência de cenário, para
             isso foi criado um arquivo chamado save_email.txt que contém um e-mail já cadastro
             pelo cenário "Cadastro de usuário", então sempre será possível executar o cenário
