@@ -1,7 +1,7 @@
 And("valido as seguintes informações do endereço") do |table|
-  #inserir assertiva
-  table.headers.each do |head|
-  adress.get_text_adress_delivery.include?(table.hashes[0][head])
+
+  for head in 0...table.headers.size
+  expect(adress.get_text_adress_delivery.include?(table.hashes[0][table.headers[head]])).to eq(true)
   end
 end
 

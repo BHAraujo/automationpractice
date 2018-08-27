@@ -6,7 +6,7 @@
         Background: Preparação de ambiente
               Given que esteja na tela inicial do site Automation Practise
 
-          @teste
+    @teste
         Scenario: Realizar comprar
           Given que clico no categoria Dresses
           When clico na subcategoria Summer Dresses
@@ -26,8 +26,8 @@
           | email  | password  |
           | $email | 123Mudar* |
           And valido as seguintes informações do endereço
-          | name   | street  | city        | country       | mobile        |
-          | Bruno  | Nine    | Texas 76621 | United States | 1(212)444-9999|
+          | name   | street  | city   | zip  | country | mobile        |
+          | Bruno  | Nine    | Texas  | 76621| United  | 1(212)444-9999|
           And na tela Adress clico no botão Proceed to checkout
           And devo ser redirecionado para tela "Shipping"
           And aceito o termos do serviço que será prestado

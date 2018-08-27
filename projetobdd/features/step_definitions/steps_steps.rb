@@ -19,7 +19,7 @@ end
 end
 
 And("verifico se tem no estoque o item Printed Chiffon Dress") do
-      expect(page.find(:xpath, "//*[@id='center_column']/ul/li[3]/div/div[2]/span/span").text).to eq("In stock")
+    expect(page.find(:xpath, "//*[@id='center_column']/ul/li[3]/div/div[2]/span/span").text).to eq("In stock")
 end
 
 And("aceito o termos do serviço que será prestado") do
