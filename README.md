@@ -17,14 +17,14 @@ Executar o projeto
           -c --> Exibir a cor dos steps em tempo real, VERDE o step passou corretamente e VERMELHO
           ocorreu alguma falha no step.
 
-      ambiente: prod
+     - ambiente: prod
           prod --> Para executar o testes no ambiente de produção, "homolog" para executar no ambiente
            de homologação.
 
-      browser: :selenium
+     - browser: :selenium
           :selenium --> Executar os testes com o navegador Firefox.
 
-      html_report: --format progress --format html --out=reports/html/features_report.html
+     - html_report: --format progress --format html --out=reports/html/features_report.html
                "--out=reports/html/features_report.html" caminho onde será salvo o relatório.
 
   - Arquivo homolog.yml           
