@@ -14,8 +14,8 @@ And("efetuo o login com as seguintes credenciais") do |table|
   File.open("save_email.txt", "r") do |f|
     f.each do |email|
       authentication.do_login(email, table.hashes[0]["password"])
+    end
   end
-end
 end
 
 And("verifico se tem no estoque o item Printed Chiffon Dress") do

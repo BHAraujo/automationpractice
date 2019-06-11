@@ -1,6 +1,7 @@
-require 'capybara'
-require 'capybara/DSL'
-require 'capybara/RSPEC/MATCHERS'
+require "byebug"
+require "capybara"
+require 'capybara/dsl'
+require "cucumber"
 require 'capybara/rspec'
 require "selenium-webdriver"
 require "site_prism"
@@ -8,7 +9,6 @@ require_relative "pages_helpers.rb"
 require_relative "auxiliar.rb"
 
 World(Capybara::DSL)
-World(Capybara::RSpecMatchers)
 World(PageObject)
 World(Helper)
 

@@ -6,7 +6,7 @@
         Background: Preparação de ambiente
               Given que esteja na tela inicial do site Automation Practise
 
-
+        @solo      
         Scenario: Realizar comprar
           Given que clico no categoria Dresses
           When clico na subcategoria Summer Dresses

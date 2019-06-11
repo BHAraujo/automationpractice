@@ -23,13 +23,14 @@ class CreateAccount < SitePrism::Page
     element :button_register, "#submitAccount"
 
     def preencher_informaçoes_pessoais(*args)
-      radio_title.click
+      page.find("div.radio-inline:nth-child(3) > label:nth-child(1)").click
       input_first_name.set(args[1])
       input_last_name.set(args[2])
       input_password.set(args[3])
     end
 
     def set_date_birth(data)
+      byebug
       select data[0], from: "days"
       select data[1], from: "months"
       select data[2], from: "years"
