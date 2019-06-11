@@ -50,7 +50,7 @@
 
   - Na raiz do projeto digitar o comando `sudo docker image build -t <nomedaimagem> . `
     Exemplo: `sudo docker iamge build -t geckodriver .`
-      Obs: **O '.' sinaliza que você deseja criar a imagem com as Configurações contidas no arquivo `Dockerfile`**
+      Obs: **O '.' sinaliza que você deseja criar a imagem com as configurações contidas no arquivo `Dockerfile`**
 
   - Em seguida executar o comando: `sudo docker run --name <nomedocontainer> geckodriver`
       Exemplo: `sudo docker run --name container_geckodriver geckodriver`
@@ -58,5 +58,5 @@
 
 
 **Desenvolvedor**
-    **Nome:** Bruno Henrique **Araujo
+    **Nome:** Bruno Henrique Araujo
     **Email:** lbruno.henrique.araujo@gmail.com
