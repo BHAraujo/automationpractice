@@ -57,7 +57,6 @@
 
 
 
-
 **Desenvolvedor**
     **Nome:** Bruno Henrique **Araujo
     **Email:** lbruno.henrique.araujo@gmail.com

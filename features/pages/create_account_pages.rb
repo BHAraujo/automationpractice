@@ -30,7 +30,6 @@ class CreateAccount < SitePrism::Page
     end
 
     def set_date_birth(data)
-      byebug
       select data[0], from: "days"
       select data[1], from: "months"
       select data[2], from: "years"
