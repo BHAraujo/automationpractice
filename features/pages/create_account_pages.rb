@@ -30,9 +30,9 @@ class CreateAccount < SitePrism::Page
     end
 
     def set_date_birth(data)
-      select data[0], from: "days"
-      select data[1], from: "months"
-      select data[2], from: "years"
+      page.find("#days > option:nth-child(#{data[0].to_i + 1})").click
+      page.find("#months > option:nth-child(13)").click
+      page.find("#years > option:nth-child(28)").click
     end
 
     def preencher_endereço(*args)

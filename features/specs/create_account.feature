@@ -6,7 +6,7 @@ Feature: Realizar cadastro na loja virtual
       Background: Preparação de ambiente
             Given que esteja na tela de cadastro
 
-      @logout
+      @logout @solo
       Scenario: Cadastro de usuário
             When preencho o campo Email address "test_automation@gmail.com"
             And clico no botão Create an account
