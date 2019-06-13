@@ -36,9 +36,6 @@ class CreateAccount < SitePrism::Page
     end
 
     def preencher_endereço(*args)
-      radio_title.click
-      input_firstname.set(args[0])
-      input_lastname.set(args[1])
       input_address.set(args[2])
       input_city.set(args[3])
       input_zip.set(args[5])
@@ -47,7 +44,7 @@ class CreateAccount < SitePrism::Page
     end
 
     def set_state(estado)
-      select estado, from: "id_state"
+      page.find("#id_state > option:nth-child(46)").click
     end
 
     def set_country(pais)
